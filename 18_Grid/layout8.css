@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    margin: 10px auto;
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    gap: 10px;
+}
+
+.box{
+    border: 1px dotted black;
+    font-size: 30px;
+    text-align: center;
+}
+
+#box-1{
+    background-color:cadetblue;
+    grid-column: 1/-1;
+}
+
+#box-2{
+    background-color:blanchedalmond;
+    grid-row: 2/5;
+}
+
+#box-3{
+    background-color: chocolate;
+    grid-column: 2/-1;
+}
+
+#box-4{
+    background-color: cornflowerblue;
+}
+
+#box-5{
+    background-color:darkgoldenrod;
+}
+
+#box-6{
+    background-color:darkseagreen;
+}
+
+#box-7{
+    background-color: rgb(202, 159, 233);
+}
+
+#box-8{
+    background-color: thistle;
+}
+
+#box-9{
+    background-color:hotpink;
+}
+
