@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    transition: all ease-in-out;
+    border-radius: 5px;
+    /* animation-direction: alternate; */
+}
+
+@keyframes box {
+    0%{
+        transform: translate(0,0);
+    }
+
+    25%{
+        transform: translate(600px,0);
+    }
+
+    50%{
+        transform: translate(600px,600px);
+    }
+
+    75%{
+        transform: translate(0,600px);
+    }
+}
+
+.btn {
+    height: 60px;
+    width: 100px;
+    border: none;
+    background-color:rgb(254, 7, 7);
+    color: white;
+    border-radius: 5px;
+    margin-left: 700px;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-size: 15px;
+}
+
+@keyframes btn{
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+        box-shadow: rgba(239, 0, 0, 0.967) 0px 3px 8px;
+    }
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 2px solid  black;
+    margin: auto;
+    margin-top: 50px;
+    /* animation-name: squareToCircle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    animation: squareToCircle 3s infinite alternate;
+
+}
+
+@keyframes squareToCircle {
+    from {
+        border-radius: 0%;
+    }
+
+    to {
+        border-radius: 50%;
+    }
+}
+
+.sun{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+    background-image: radial-gradient(circle, yellow, red);
+    animation-name: sun;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   
+}
+
+.earth{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    /* position: absolute; */
+    background-image: radial-gradient(circle, rgb(50, 50, 183), rgb(61, 235, 61));
+}
+
+@keyframes sun {
+    from {
+        transform: rotate(0deg);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}

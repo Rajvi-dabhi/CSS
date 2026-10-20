@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "AlexBrush";
+  src: url("asset/AlexBrush-Regular.ttf") format("truetype");
+}
+
+
+#inbuilt{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#external{
+  font-family: "Black Ops One", system-ui;
+  font-style: normal;
+  font-weight: 100px;
+}
+
+#custom{
+    font-family: "AlexBrush", cursive;
+    font-size: 50px;
+}

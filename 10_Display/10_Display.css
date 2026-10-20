@@ -1,0 +1,63 @@
+* {
+    margin: 10px auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#span{
+    color: rgb(182, 243, 121);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+span{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    color: darkgreen;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    /* display: inline; */
+    color: darkolivegreen;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#none{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    /* display: none; */
+
+}
+
+#hidden{
+    height: 500px;
+    width: 500px;
+    /* visibility: hidden; */
+    object-fit: contain;
+}
+
+#car{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
+
+#box-1,#box-2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+

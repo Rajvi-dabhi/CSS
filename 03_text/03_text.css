@@ -1,0 +1,69 @@
+#heading{
+    color: rgb(120, 159, 159);
+    font-size: 30px;
+}
+
+#start{
+    color: rgb(132, 80, 80);
+    font-size: 28px;
+}
+
+#center{
+    color: rgb(132, 80, 80);
+    font-size: 28px;
+    text-align: center;
+}
+
+#end{
+    color: rgb(132, 80, 80);
+    font-size: 28px;
+    text-align: end;
+}
+
+#text{
+    color: blueviolet;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#letter{
+    color: grey;
+    font-size: 28px;
+    letter-spacing: 10px;
+}
+
+#paragraph{
+    color: rgb(51, 96, 51);
+    word-spacing: 10px;
+    line-height: 30px;
+    text-indent: 100px;
+}
+
+#link{
+    color: rgb(144, 97, 122);
+    text-decoration: none;
+    font-size: 28px;
+}
+
+#li{
+    color: rgb(237, 104, 104);
+    list-style: none;
+    font-size: 20px;
+}
+
+#capital{
+    color: darkgreen;
+    text-transform: capitalize;
+}
+
+#lowercase{
+    color: darkgreen;
+    text-transform: lowercase;
+}
+
+#uppercase{
+    color: darkgreen;
+    text-transform:uppercase ;
+}
+

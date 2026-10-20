@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background{
+    height: 700px;
+    width: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/38504182/pexels-photo-38504182.jpeg");
+}
+
+#harley{
+    height: 600px;
+    width: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/13336569/pexels-photo-13336569.jpeg");
+}
